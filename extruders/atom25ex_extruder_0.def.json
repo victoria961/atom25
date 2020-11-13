@@ -1,0 +1,24 @@
+{
+    "id": "atom25ex_extruder_0",
+    "version": 2,
+    "name": "Ext 0",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "atom25ex",
+        "position": "0",
+        "color": "#0080b0"
+    },
+
+    "overrides": {
+        "extruder_nr": {
+            "default_value": 0,
+            "maximum_value": "1"
+        },        
+        "preload_extruder_retraction": {
+            "default_value": true,
+            "enabled": true
+        },       
+        "machine_nozzle_offset_x": { "default_value": 0.0 },
+        "machine_nozzle_offset_y": { "default_value": 0.0 }
+    }
+}
