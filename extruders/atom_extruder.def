@@ -1,0 +1,11 @@
+{
+    "id": "atom_extruder",
+    "version": 2,
+    "name": "Ext 0",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "atom",
+        "position": "0",
+        "color": "#0080b0"
+    }
+}
